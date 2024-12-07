@@ -1,0 +1,83 @@
+body{
+    margin: 20px;
+    padding: 0;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+form{
+    margin: auto;
+    background-color: rbg(228, 242, 255);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    max-width: 600px;
+}
+h1{
+    text-align: center;
+    color: black;
+}
+fieldset{
+    border: 2px solid rgb(75, 32, 32);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(196, 164, 164);
+}
+legend{
+    font-weight: bold;
+    text-align: left;
+    color: rgb(34, 29, 29);
+}
+input, textarea{
+    margin-top: 4px;
+    padding: 8px;
+    width: 100%;
+    border: 1px solid rgb(253, 228, 243);;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button{
+    display: block;
+    width: 100%;
+    background-color:  rgb(196, 164, 164);
+    color: black;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+}
+button :hover{
+    color: rgb(255, 255, 255);
+}
+#resume-display{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid  rgb(255, 163, 224);
+    border-radius: 8px;
+    background-color:  rgb(196, 164, 164);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    /* making the resume editable */
+    outline: none;
+}
+#resume-display h2{
+color: black;
+}
+#shareable-link-container{
+    max-width: 600px;
+    margin:auto;
+    padding: 20px;
+    border: 2px solid rgb(225, 163, 224);
+    border-radius: 8px;
+    background-color: rgb(196, 164, 164);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+   
+}
+
+#download-pdf{
+    background-color: rgb(177, 106, 106);
+    color: white;
+}
